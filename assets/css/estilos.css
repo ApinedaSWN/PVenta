@@ -1,0 +1,176 @@
+header, main, footer {
+      padding-left: 180px;
+    }
+
+    @media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+    }
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+input[type=phone]:not(.browser-default){
+  background-color: transparent;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    padding: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-transition: border .3s, -webkit-box-shadow .3s;
+    transition: border .3s, -webkit-box-shadow .3s;
+    transition: box-shadow .3s, border .3s;
+    transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+}
+input:not([type]),
+input[type=phone]:not(.browser-default),
+input[type=text]:not(.browser-default),
+input[type=password]:not(.browser-default),
+input[type=email]:not(.browser-default),
+input[type=url]:not(.browser-default),
+input[type=time]:not(.browser-default),
+input[type=date]:not(.browser-default),
+input[type=datetime]:not(.browser-default),
+input[type=datetime-local]:not(.browser-default),
+input[type=tel]:not(.browser-default),
+input[type=number]:not(.browser-default),
+input[type=search]:not(.browser-default),
+textarea.materialize-textarea {
+    border: 1px solid #b0bec5 ;
+    border-radius: 7px;
+    padding-left: 14px;
+    font-size: 0.8em;
+    height: 2rem;
+
+}
+
+input:not([type]):focus:not([readonly]),
+input[type=phone]:not(.browser-default):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border: 1px solid #1976d2 !important;
+    -webkit-box-shadow: 0 0px 0 0 #9e9e9e !important;
+    box-shadow: 0 0px 0 0 #9e9e9e !important;
+}
+::placeholder{
+  color: #455a64;
+  font-size: 12px;
+}
+table tbody td{
+  font-size: .8em !important;
+}
+table tbody td i{
+  margin-left: 14px;
+}
+
+  thead{
+    /* background-color: #37474f;
+    color: white; */
+
+  }
+  th,td    {
+    border-radius: 0;
+    text-align: center !important;
+  }
+table.striped>tbody>tr:nth-child(odd) {
+      background-color: #e0e0e0;
+      }
+
+
+
+.headerCard{
+      background-color: #546e7a;
+      padding: 7px !important;
+      color: white;
+    }
+.headerModal{
+      margin: 0;
+      background-color: #546e7a;
+      padding: 14px;
+      color: white;
+      font-size: 1.5em;
+      font-weight: lighter !important;
+    }
+  i{
+      cursor: pointer;
+    }
+.modal{
+      max-width: 90% !important;
+      max-height: 80% !important;
+}
+.dropdown-content{
+  min-width: 200px;
+}
+#total{
+  padding: 10px !important;
+  margin-top: 20px;
+  margin-right: 10%;
+}
+#total b{
+  padding: 10px;
+  margin-right: 5px;
+}
+.dropdown-content li>a, .dropdown-content li>span {
+    font-size: .8em;
+    color: #26a69a;
+    line-height: 11px;
+    padding: 14px 16px;
+    text-transform: capitalize !important;
+    border-radius: 20px !important;
+}
+.btn-large{
+  width: 100%;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+.input-field>label:not(.label-icon).active{
+  text-align: right;
+  transform: translateY(-24px) translateX(14px) scale(0.8);
+}
+
+.sidenav{
+  width: 180px;
+}
+.sidenav li a{
+  font-size: 0.6em;
+  height: 30px;
+  line-height: 30px
+}
+.sidenav li a i.material-icons{
+  font-size: 1.5em;
+  width: 0px;
+  line-height: 30px
+}
+.sidenav .user-view .name,.sidenav .user-view .email{
+  font-size: 10px;
+}
+nav{
+  height: 50px;
+}
+nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i{
+  line-height: 50px;
+}

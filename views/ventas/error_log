@@ -1,0 +1,10 @@
+[28-Jul-2018 07:26:35 UTC] PHP Notice:  Undefined variable: titulo in /home/st48vnr4qxz5/public_html/includes/header.php on line 46
+[28-Jul-2018 07:26:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/st48vnr4qxz5/public_html/views/ventas/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/st48vnr4qxz5/public_html/views/ventas/index.php on line 4
+[28-Jul-2018 07:27:25 UTC] PHP Notice:  Undefined variable: titulo in /home/st48vnr4qxz5/public_html/includes/header.php on line 46
+[28-Jul-2018 07:27:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/st48vnr4qxz5/public_html/views/ventas/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/st48vnr4qxz5/public_html/views/ventas/index.php on line 4
